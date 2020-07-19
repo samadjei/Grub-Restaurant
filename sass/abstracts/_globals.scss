@@ -80,21 +80,6 @@ ul {
 	@include intro;
 }
 
-.food {
-	// vertically align the horizontal line next to the h2 element
-	&::after {
-		content: '';
-		display: block;
-		height: 1px;
-		width: 40%;
-		background-color: #3a414e;
-		position: absolute;
-		top: 50%;
-		right: 10%;
-		transform: translateY(-50%);
-	}
-}
-
 .description {
 	font-size: 1.625rem;
 }

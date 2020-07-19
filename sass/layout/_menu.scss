@@ -68,6 +68,7 @@
 	@include flexCenter;
 	padding: 1.875rem 2.5rem;
 	background-color: $background-colour;
+	border-radius: 10px;
 
 	&:hover {
 		background-color: #fff;
@@ -95,6 +96,18 @@
 	padding-right: 7.188rem;
 	position: relative;
 	margin-bottom: 0.938rem;
+	// vertically align the horizontal line next to the h2 element
+	&::after {
+		content: '';
+		display: block;
+		height: 1px;
+		width: 40%;
+		background-color: #3a414e;
+		position: absolute;
+		top: 50%;
+		right: 10%;
+		transform: translateY(-50%);
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -110,5 +123,27 @@
 
 	.pad-top {
 		padding: 0rem;
+	}
+
+	.food {
+		font-size: 1.25rem;
+		&::after {
+			width: 30%;
+			right: 25%;
+		}
+	}
+
+	.price {
+		font-size: 1rem;
+		margin-left: -2rem;
+	}
+
+	.inner-contents {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+
+		p {
+			font-size: 0.9rem;
+		}
 	}
 }
