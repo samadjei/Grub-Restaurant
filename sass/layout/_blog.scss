@@ -1,0 +1,21 @@
+// *OUR BLOG
+.blog-content {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 1.25rem;
+}
+
+.admin {
+	padding: 0.75rem 0 0.5rem 0;
+	color: #888;
+}
+
+.blog-title {
+	padding: 0.75rem 0 0.75rem 0;
+}
+
+.social-details {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 1rem;
+}

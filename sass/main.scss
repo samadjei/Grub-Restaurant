@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Open+Sans&display=swap');
-
-@import 'abstracts/mixins';
 @import 'abstracts/variables';
+@import 'abstracts/mixins';
 @import 'abstracts/globals';
 
 @import 'base/animations';
@@ -12,8 +10,10 @@
 
 @import 'layout/header';
 @import 'layout/navigation';
+@import 'layout/showcase';
 @import 'layout/about';
 @import 'layout/services';
+@import 'layout/menu';
 @import 'layout/newsletter';
 @import 'layout/blog';
 @import 'layout/footer';
