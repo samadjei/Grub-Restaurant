@@ -1,0 +1,32 @@
+.about {
+  @include contain;
+  @include flexCenter;
+  flex-wrap: wrap;
+  padding-top: 6.25rem;
+
+  div {
+    flex: 1;
+    overflow: hidden;
+  }
+
+  .about-content p {
+    color: #888;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.8;
+    margin-bottom: 1.25rem;
+  }
+}
+
+.about-img {
+  padding: 0 3.125rem 0 3.125rem;
+}
+
+.about-content {
+  padding-right: 3.125rem;
+}
+
+.about-img {
+  display: grid;
+}

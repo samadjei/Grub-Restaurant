@@ -1,0 +1,22 @@
+{
+  "name": "grub-restaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samadjei/Grub-Restaurant-.git"
+  },
+  "author": "Samuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samadjei/Grub-Restaurant-/issues"
+  },
+  "homepage": "https://github.com/samadjei/Grub-Restaurant-#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}

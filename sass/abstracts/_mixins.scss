@@ -1,0 +1,58 @@
+@import "variables";
+
+@mixin contain {
+  width: 80%;
+  /* horizontally aligns the item in the center of the parent element */
+  margin: 0 auto;
+  // padding: 2rem;
+  overflow: hidden;
+  // CSS smooth scroll
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+@mixin flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin intro {
+  // display list items horizontally
+  display: inline-block;
+  font-size: 1.5rem;
+  color: $primary-colour;
+  padding-right: 7.188rem;
+  position: relative;
+  margin-bottom: 0.938rem;
+
+  // vertically align the horizontal line next to the h2 element
+  &::after {
+    content: "";
+    display: block;
+    height: 1px;
+    min-width: 6.25rem;
+    background-color: #3a414e;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+}
+
+@mixin btnFormat {
+  display: inline-block;
+  background-color: $primary-colour;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 1.875rem;
+  padding: 0.563rem 1.563rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  // allows me to activate the cursor
+  z-index: 1;
+  transition: all 0.3s ease 0s;
+}

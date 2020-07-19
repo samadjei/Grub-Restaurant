@@ -1,0 +1,33 @@
+// *Image Scroll Transitioning
+.img-1 {
+  transform: translateX(-450px);
+  opacity: 0;
+  transition: 0.8s all ease-in-out;
+}
+
+.img-1-appear {
+  opacity: 1;
+  transform: translateX(0px);
+}
+
+.img-2 {
+  transform: translateX(400px);
+  opacity: 0;
+  transition: 0.8s all ease-in-out;
+}
+
+.img-2-appear {
+  opacity: 1;
+  transform: translateX(0px);
+}
+
+.overlay-img:first-of-type {
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+}
+
+.overlay-img:last-of-type {
+  z-index: 1;
+  grid-column: 2/ 4;
+  grid-row: 2 / 4;
+}
