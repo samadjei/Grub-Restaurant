@@ -4,19 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/samadjei/Grub-Restaurant-.git"
+    "url": "git+https://github.com/samadjei/Grub-Rrestaurant.git"
   },
-  "author": "Samuel",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/samadjei/Grub-Restaurant-/issues"
+    "url": "https://github.com/samadjei/Grub-Rrestaurant/issues"
   },
-  "homepage": "https://github.com/samadjei/Grub-Restaurant-#readme",
-  "devDependencies": {
-    "node-sass": "^4.13.1"
-  }
+  "homepage": "https://github.com/samadjei/Grub-Rrestaurant#readme"
 }
